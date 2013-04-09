@@ -1,0 +1,24 @@
+---
+abstract: 'Log HTTP request content (body)'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: LWP-UserAgent-Patch-LogRequestContent
+requires:
+  LWP::UserAgent: 6.05
+  Log::Any: 0
+  Module::Patch: 0.16
+  perl: 5.010001
+resources:
+  homepage: http://metacpan.org/release/LWP-UserAgent-Patch-LogRequestContent
+  repository: http://github.com/sharyanto/perl-LWP-UserAgent-Patch-LogRequestContent
+version: 0.01
